@@ -13,7 +13,7 @@ public class CustomAuthenticationProvider implements AuthenticationProvider {
 
     public CustomAuthenticationProvider() {
         dummyUsers.add(new User("john", "secret", "ROLE_USER"));
-        dummyUsers.add(new User("admin", "super", "ROLE_ADMIN"));
+        dummyUsers.add(new User("admin", "supersecret", "ROLE_ADMIN"));
     }
 
     @Override
